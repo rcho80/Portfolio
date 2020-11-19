@@ -1,0 +1,160 @@
+#welcome-section {
+height: 100vh;
+background: #2E2E2E;
+}
+
+.all-top {
+    text-align: center;
+    overflow: auto;
+    padding: 15em;
+}
+
+#mimic {
+  color: #FFFFFF;
+  font-size: 55px;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+#web {
+  color: #F04A59;
+  font-size: 30px;
+  font-style: italic;
+  font-family: 'Josefin Slab', serif;
+}
+
+#navbar {
+ position: fixed;
+ width: 100%;
+ top: 0;
+ font-size: 18px;
+ background-color: #F04A59;  
+      }
+      
+#nav-container {
+  list-style-type: none;
+}  
+
+  .nav-link {
+  float: left;
+  width: 15%;
+  text-align: right;  
+  color: #FFFFFF;
+  text-decoration: none;  
+}
+
+
+#projects {
+   background-color: #495D8D;
+   color: #FFFFFF;
+   text-align: center;
+      }
+
+.project-tile {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-gap: 10px;
+  grid-template-areas: 
+    "tribute"
+    "random"
+    "calculator"
+    "map"
+    "wiki"
+    "tic"
+}
+
+.item1 {
+  grid-area: tribute;
+}
+
+.item2 {
+  grid-area: random;
+}
+
+.item3 {
+  grid-area: calculator;
+}
+
+.item4 {
+  grid-area: map;
+}
+
+.item5 {
+  grid-area: wiki;
+}
+
+.item6 {
+  grid-area: tic;
+}
+
+@media screen and (min-width: 400px) {
+  .project-tile {
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-areas: 
+    "tribute random"
+    "calculator map"
+    "wiki tic"
+  }
+}
+     
+@media screen and (min-width: 900px) {
+  .project-tile {
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas: 
+    "tribute random calculator"
+    "map wiki tic"
+  }
+}   
+
+#contact {
+  background-color: #2E2E2E;
+  color: #FFFFFF;
+    overflow: auto;
+      }
+
+#work-sign {
+  margin: 5;
+  font-size: 45px
+}
+
+#coffee {
+  margin: 0 0 5em 0;
+  font-size: 17px;
+}
+
+.t-link {
+ width: 100%;
+ top: 0;
+}
+
+#item-links {
+  list-style-type: none;
+}
+
+#profile-link {
+  float: left;
+  width: 20%;
+  text-align: center;  
+  color: #FFFFFF;
+  text-decoration: none; 
+  
+}
+
+
+ #footer {
+  background-color: #2E2E2E;
+  color: #FFFFFF;
+   }
+
+#copy {
+  text-align: right;
+  font-size: 13px;
+  
+}
+
+#sentence {
+ font-size: 13px;
+}
