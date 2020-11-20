@@ -1,76 +1,85 @@
-<DOCTYPE html>
+  <!DOCTYPE html>
   <html>
-  
-<head>
+  <head>
+ <link rel="stylesheet" type="text/css" href="styles.css">
+  </head>  
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
  
-  <title>Projects of a web developer</title>
-   <link rel="stylesheet" type="text/css" href="styles.css">
- <section id="welcome-section">
+ <body>
+    <nav>
+        <div class="logo">
+          <h4>Ray Cho</h4>
+        </div>
+        <ul class='nav-links'>
+          <li><a href='#'>Home</a></li>
+          <li><a href='#'>About</a></li>
+          <li><a href='#'>Projects</a></li>
+          <li><a href='#'>Contact</a></li>
+        </ul>
+        <div class='burger'>
+          <div class='line1'></div>
+          <div class='line2'></div>
+          <div class='line3'></div>
+        </div>        
+    </nav>
+
+
+
+
+
+  <!-- 
+  <nav class="navbar" id="nav-container">
+       <a class="nav-link" href="#welcome-section">About</a>
+       <a href="#projects">Work</a>
+       <a href="#contact">Contact</a>
+       <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+       </a>
+  </nav>
+ -->
+   <title>Projects of a web developer</title>
+ <div id="welcome-section">
    <div class="all-top">
   <h1 id="mimic">Hey I am Mimic</h1>
   <h2 id="web">a web developer</h2>
   </div>
-  </section>
-</head>
-
-<body> 
+  </div>
   
-<nav id="navbar">
-        <ul id="nav-container">
-          <li><a class="nav-link" href="#welcome-section">About</a></li>
-          <li><a class="nav-link" href="#projects">Work</a></li>
-          <li><a class="nav-link" href="#contact">Contact</a></li>
-        </ul>
-</nav>
-        
-<main>  
-        
-<section id="projects">
+<div id="projects">
           <h2>These are some of my projects</h2>
-         
- <div class="project-tile">
-    <article>
+  <div class="project-tile">
     <div class="item1" a href="https://codepen.io/freeCodeCamp/full/zNqgVx"><img src="xxxxx " alt="tribute-page"></a>tribute</div>
               <h3>Tribute Page</h3>
-     </article>
-            
-     <article>
-       <div class="item2" a href="https://codepen.io/freeCodeCamp/full/qRZeGZ"><img src="xxx" alt="random-page"></a>random</div>
+             
+      <div class="item2" a href="https://codepen.io/freeCodeCamp/full/qRZeGZ"><img src="xxx" alt="random-page"></a>random</div>
               <h3>Random Quote Machine</h3>
-     </article>
+
          
-     <article>
+
        <div class="item3" a href="https://codepen.io/freeCodeCamp/full/wgGVVX"><img src="xxx" alt="calculator"></a>calculator</div>                     
               <h3>Javascript Calculator</h3>
-     </article>
-          
-      <article>
+
         <div class="item4" a href="https://codepen.io/freeCodeCamp/full/mVEJag"><img src="xxx" alt="map data"></a>map</div>   
               <h3>Map Data Across the Globe</h3>
-      </article>
-        
-      <article>
+
         <div class="item5" a href="https://codepen.io/freeCodeCamp/full/wGqEga"><img src="xxx" alt="wiki"></a>wiki</div>
               <h3>Wikipedia Viewer</h3>
-      </article>
             
-      <article>
+
         <div class="item6" a href="https://codepen.io/freeCodeCamp/full/KzXQgy"><img src="xxx" alt="tic tac game"></a>tic</div>
               <h3>Tic Tac Toe Game</h3>
-      </article>
        
+</div>
 </div>
 
    <input id="show" type="submit" value="Show all >"
          
-</section>
-         
-
-  <section id="contact">
-    <header>
+    
+  <div id="contact">
   <h1 id="work-sign">Let's work together...</h1>
   <h2 id="coffee">How do you take your coffee</h2>
-    </header>
+
     
     <div class="t-link">
     <ul id="item-links">
@@ -85,17 +94,16 @@
     <li><a href="tel:555-555-5555" target="_blank" id="profile-link">Call me</a></li>
   </ul>
     </div>
-  </section>
-
-    
- </main>
+  </div>
+ 
+    <script type="text/javascript" src="script.js"></script>
+  
+  </body>       
   
  <footer id="footer">   
           <h5 id="sentence">**This is just a fake portfolio. All the projects and contact details given are not real.</h5>
    <h5 id="copy">© Created for freeCodeCamp</h5>
- </footer>
-    
-  </body>        
-          
-</html>
+ </footer> 
+  
+  </html>
     
