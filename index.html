@@ -15,11 +15,22 @@
         <div class="logo">
           <h4>Ray Cho</h4>
         </div>
-        <ul class='nav-links'>
-            <li><a href='#'>About</a></li>
-          <li><a href='#'>Projects</a></li>
-          <li><a href='#'>Contact</a></li>
-        </ul>
+            <ul class='nav-links'>
+              <li><a href='#' class="about">About</a></li>
+              <div class="dropdown">
+                <li><button class="dropbtn">Projects
+                </button></li>
+                  <div class="dropdown-content">
+                    <a href="#">Portfolio Page</a>
+                    <a href="#">Manuela Mendes Cho</a>
+                    <a href="#">Jiu Jitsu Masters</a>
+                    <a href="#">Photo Album for Elders</a>
+                    <a href="#">Career Path Creators</a>
+                    <a href="#">Visas Simplified</a>
+                </div>
+              </div>
+              <li><a href='#contact'>Contact</a></li>
+            </ul>
         <div class='burger'>
           <div class='line1'></div>
           <div class='line2'></div>
@@ -30,11 +41,26 @@
 
 
      <title>Ray Cho</title>
- <img id="mainFoto" src="file:///C:/Users/raych/Desktop/Projects/portfolio/FOTOS/skyFoto.JPG" alt="sky">
-
-  
+  <div class="container">
+    <img id="mainFoto" src="file:///C:/Users/raych/Desktop/Projects/portfolio/FOTOS/skyFoto.JPG" alt="sky">
+      <div class="overlay">
+          <p class="text">Pellentesque habitant morbi tristique senectus et netus et 
+        malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, 
+        ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper.
+         Aenean ultricies mi vitae est. Mauris placerat eleifend leo. 
+       Pellentesque habitant morbi tristique senectus et netus et 
+        malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, 
+        ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper.
+         Aenean ultricies mi vitae est. Mauris placerat eleifend leo.
+       Pellentesque habitant morbi tristique senectus et netus et 
+        malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, 
+        ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper.
+         Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
+      </div>
+  </div>
+   
 <div id="projects">
-      <div class="jobTitle">
+      <div id="jobTitle">
           <h2>Software Developer</h2>
           <h5>Creative problem solver</h5>
       </div>
@@ -122,7 +148,7 @@ c9.24,0,15.36-6.5,15.36-15.64c0-1.17-0.11-2.29-0.31-3.36C31.05,21,16,21,16,21z" 
 </svg>
 
 <div class="wrapper">
-<div class="connect">
+<div class="connect" id="contact">
 
   <a href="" class="share twitter">
     <svg role="presentation" class="svg--icon">

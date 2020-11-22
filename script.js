@@ -1,18 +1,8 @@
-// function myFunction() {
-//   var x = document.getElementById("nav-container");
-//   if (x.className === "navbar") {
-//     x.className += " responsive";
-//   } else {
-//     x.className = "navbar";
-//   }
-// }
-
 const navSlide = () => {
 	const burger = document.querySelector('.burger');
 	const nav = document.querySelector('.nav-links');
 	const navLinks = document.querySelectorAll('.nav-links li');
-
-
+	
 	burger.addEventListener('click', () => {
 		// Toggle Nav
 		nav.classList.toggle('nav-active');
@@ -27,6 +17,19 @@ const navSlide = () => {
 	// Burger animation 
 	burger.classList.toggle('toggle');
 	});
+
 };
 
 navSlide();
+
+const ainda = () => {
+const about = document.querySelector('.about');
+
+	about.addEventListener('click', () => {
+		//toggle container 
+		console.log(`3`)
+	})
+
+}
+
+ainda();
