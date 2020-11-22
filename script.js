@@ -24,10 +24,11 @@ navSlide();
 
 const ainda = () => {
 const about = document.querySelector('.about');
+const overlay = document.querySelector('.overlay');
 
 	about.addEventListener('click', () => {
 		//toggle container 
-		console.log(`3`)
+		overlay.classList.toggle('reveal');
 	})
 
 }
